@@ -2,21 +2,19 @@
 
 **How a crowd makes up its mind.**
 
-**Live site:** https://murmuration-social.github.io/murmuration/
-
 Nobody leads a flock of starlings, and still ten thousand of them turn at once. Murmuration is an interactive audience-intelligence site that watches an online crowd do the same thing, in five rooms that all read one dataset.
 
 | Room | Question | Things to play with |
 |---|---|---|
-| **I. Data Ingestion & Timeline** | How did it get here? | Time-lapse intake line, a masking booth that strips names from what you type, a conversation unspooled along the clock |
-| **II. Sentiment Analysis** | How does it feel? | A living sky that follows the crowd's mood, a barometer for any sentence, seven kinds of feeling |
-| **III. Audience Demographics** | Who are they? | A constellation of anonymous profiles, trend and word filters, a two-crowd face-off |
-| **IV. Trend Intelligence** | What is rising? | A time machine that hides the future, a forecaster you can try to beat |
-| **V. Network & Influence Analysis** | Who told whom? | A living network, trend replays, rumour simulation, cut the wires, six degrees |
+| **I. The Listening Post** | How did it get here? | Time-lapse intake line, a masking booth that strips names from what you type, a conversation unspooled along the clock |
+| **II. The Weather Room** | How does it feel? | A living sky that follows the crowd's mood, a barometer for any sentence, seven kinds of feeling |
+| **III. The Audience Atlas** | Who are they? | A constellation of anonymous profiles, trend and word filters, a two-crowd face-off |
+| **IV. The Swell** | What is rising? | A time machine that hides the future, a forecaster you can try to beat |
+| **V. The Grapevine** | Who told whom? | A living network, trend replays, rumour simulation, cut the wires, six degrees |
 
 The home page has one bird for every voice in the data. Move your cursor through them and be the hawk, or click one to read what it said.
 
-Hover a chart for its numbers, and click a mark to open the real posts behind it. Charts of model results, such as the network room's breaking point, give the readout only.
+Hover a chart for its numbers, and click a mark to open the real posts behind it. Charts of model results, such as the Grapevine's breaking point, give the readout only.
 
 Reach the end of a page and it holds at a divide. Keep scrolling and a flock carries you into the next room. Inside a room, scrolling stays plain and quick. A bar at the foot of every page names what comes next, and clicking it or pressing the space bar goes there too. Every page also has a flight path on its right edge: click a perch, use its arrows, or press J and K. On phones it folds into a compass by the dock. The Light button switches to a solid, gradient-free theme and the site remembers the choice.
 
@@ -48,7 +46,7 @@ A file with no sentiment column goes through a Hugging Face model (`Xenova/twitt
 
 ## How it works
 
-Everything runs in the visitor's browser: PageRank, betweenness, k-core and Louvain community detection, cascade reconstruction, contagion simulation, damped Holt forecasting with an honest backtest, and transparent keyword rules for language, region, interests and feeling. Moods in the sample ship with the data. On a file without labels, a small trained model reads mood from the wording of English posts and leaves other languages unscored. Its marks on hand-labelled exams are published in the Sentiment Analysis room, and `tools/train_sentiment.js` rebuilds it from the public datasets, which are not stored in this repository.
+Everything runs in the visitor's browser: PageRank, betweenness, k-core and Louvain community detection, cascade reconstruction, contagion simulation, damped Holt forecasting with an honest backtest, and transparent keyword rules for language, region, interests and feeling. Moods in the sample ship with the data. On a file without labels, a small trained model reads mood from the wording of English posts and leaves other languages unscored. Its marks on hand-labelled exams are published in the Weather Room, and `tools/train_sentiment.js` rebuilds it from the public datasets, which are not stored in this repository.
 
 ## The report
 
@@ -63,4 +61,4 @@ The [Report](report/index.html) page writes up the loaded data for someone who h
 
 ---
 
-Made by the Murmuration team.
+Made by Utsav.
