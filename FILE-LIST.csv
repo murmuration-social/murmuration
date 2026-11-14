@@ -1,0 +1,52 @@
+file,part,size_kb
+index.html,Part 1: The Engine and the Front Door,11
+core/home.js,Part 1: The Engine and the Front Door,15
+core/theme.js,Part 1: The Engine and the Front Door,15
+core/profiler.js,Part 1: The Engine and the Front Door,36
+core/kit.js,Part 1: The Engine and the Front Door,22
+core/door.js,Part 1: The Engine and the Front Door,31
+core/hub.js,Part 1: The Engine and the Front Door,2
+core/loupe.js,Part 1: The Engine and the Front Door,50
+core/flight.js,Part 1: The Engine and the Front Door,31
+core/senti.js,Part 1: The Engine and the Front Door,5
+core/senti_model.js,Part 1: The Engine and the Front Door,919
+favicon.svg,Part 2: The Look and the Docs,1
+README.md,Part 2: The Look and the Docs,5
+PRODUCT_OVERVIEW.md,Part 2: The Look and the Docs,16
+core/site.css,Part 2: The Look and the Docs,13
+core/balance.css,Part 2: The Look and the Docs,2
+listen/index.html,Part 3: Listening Post and Report,15
+listen/listen.js,Part 3: Listening Post and Report,26
+report/index.html,Part 3: Listening Post and Report,6
+report/report.js,Part 3: Listening Post and Report,29
+data/demos/anthropic_claude_launches.csv,Part 3: Listening Post and Report,618
+data/demos/anthropic_claude_launches.js,Part 3: Listening Post and Report,629
+weather/index.html,Part 4: Weather Room and Swell,18
+weather/weather.js,Part 4: Weather Room and Swell,34
+swell/index.html,Part 4: Weather Room and Swell,13
+swell/swell.js,Part 4: Weather Room and Swell,25
+data/demos/jio_ipo.csv,Part 4: Weather Room and Swell,693
+data/demos/jio_ipo.js,Part 4: Weather Room and Swell,706
+atlas/index.html,Part 5: Atlas and Blueprint,102
+blueprint/index.html,Part 5: Atlas and Blueprint,7
+blueprint/blueprint.js,Part 5: Atlas and Blueprint,14
+data/demos/zomato_eternal.csv,Part 5: Atlas and Blueprint,658
+data/demos/zomato_eternal.js,Part 5: Atlas and Blueprint,671
+grapevine/index.html,Part 6: The Grapevine and the Sample Crowd,41
+grapevine/grapevine.js,Part 6: The Grapevine and the Sample Crowd,71
+grapevine/network.js,Part 6: The Grapevine and the Sample Crowd,35
+data/audience_sample.csv,Part 6: The Grapevine and the Sample Crowd,1103
+data/audience_sample.js,Part 6: The Grapevine and the Sample Crowd,1120
+tools/make_demos.js,Part 7: The Toolbox and the Jaguar Demo,38
+tools/make_sample.js,Part 7: The Toolbox and the Jaguar Demo,31
+tools/train_sentiment.js,Part 7: The Toolbox and the Jaguar Demo,8
+tools/verify_data.js,Part 7: The Toolbox and the Jaguar Demo,7
+data/demos/jaguar_rebrand.csv,Part 7: The Toolbox and the Jaguar Demo,608
+data/demos/jaguar_rebrand.js,Part 7: The Toolbox and the Jaguar Demo,619
+data/demos/apple_iphone_duo.csv,Part 8: The Apple Demo and the Raw Files,754
+data/demos/apple_iphone_duo.js,Part 8: The Apple Demo and the Raw Files,769
+data/demos/raw/anthropic_claude_launches_no_sentiment.csv,Part 8: The Apple Demo and the Raw Files,591
+data/demos/raw/jaguar_rebrand_no_sentiment.csv,Part 8: The Apple Demo and the Raw Files,579
+data/demos/raw/apple_iphone_duo_no_sentiment.csv,Part 8: The Apple Demo and the Raw Files,719
+data/demos/raw/jio_ipo_no_sentiment.csv,Part 8: The Apple Demo and the Raw Files,661
+data/demos/raw/zomato_eternal_no_sentiment.csv,Part 8: The Apple Demo and the Raw Files,628
